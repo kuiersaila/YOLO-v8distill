@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Fresh Apple', 'Rotten']
+
+roboflow:
+  workspace: khec-bzxjb
+  project: ujjalfinal
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/khec-bzxjb/ujjalfinal/dataset/1
